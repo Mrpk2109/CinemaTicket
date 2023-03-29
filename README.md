@@ -1,4 +1,4 @@
-![Diagram](./README_src/ER1.svg)
+![Diagram](./README_src/ER.svg)
 
 ผู้ใช้งานทั่วไป
  - สามารถเลือกโรงภาพยนตร์ได้
