@@ -1,4 +1,4 @@
-![Diagram](./README_src/diagram.svg)
+![Diagram](./README_src/Untitled%20Diagram.drawio.svg)
 
 ผู้ใช้งานทั่วไป
  - สามารถเลือกโรงภาพยนตร์ได้
