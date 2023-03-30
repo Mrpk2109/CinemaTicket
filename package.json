@@ -1,0 +1,9 @@
+{
+	"dependencies": {
+		"@types/dotenv": "^8.2.0",
+		"@types/google.maps": "^3.52.4",
+		"dotenv": "^16.0.3",
+		"leaflet": "^1.9.3",
+		"overpass-ts": "^4.3.8"
+	}
+}
