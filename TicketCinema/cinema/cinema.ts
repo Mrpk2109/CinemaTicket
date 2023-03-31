@@ -1,4 +1,6 @@
+import express from 'express';
 import L from 'leaflet';
+//const app:Express = express();
 
 interface Cinema {
   name: string;
@@ -45,3 +47,6 @@ function initMap(): void {
 }
 
 initMap();
+//app.listen(3001, () => {
+//  console.log('http://localhost:3001')
+//})

@@ -1,9 +1,23 @@
 {
-	"dependencies": {
-		"@types/dotenv": "^8.2.0",
-		"@types/google.maps": "^3.52.4",
-		"dotenv": "^16.0.3",
-		"leaflet": "^1.9.3",
-		"overpass-ts": "^4.3.8"
-	}
+  "dependencies": {
+    "@types/dotenv": "^8.2.0",
+    "@types/google.maps": "^3.52.4",
+    "leaflet": "^1.9.3",
+    "overpass-ts": "^4.3.8"
+  },
+  "name": "cinematicket",
+  "description": "![Diagram](./README_src/ER.svg)",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "dotenv": "^16.0.3"
+  },
+  "scripts": {
+    "start": "node dist/app.js",
+    "build": "tsc",
+    "dev": "concurrently \"tsc --watch\" \"nodemon -q dist/app.js\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }

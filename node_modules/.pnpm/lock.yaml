@@ -7,15 +7,17 @@ dependencies:
   '@types/google.maps':
     specifier: ^3.52.4
     version: 3.52.4
-  dotenv:
-    specifier: ^16.0.3
-    version: 16.0.3
   leaflet:
     specifier: ^1.9.3
     version: 1.9.3
   overpass-ts:
     specifier: ^4.3.8
     version: 4.3.8
+
+devDependencies:
+  dotenv:
+    specifier: ^16.0.3
+    version: 16.0.3
 
 packages:
 
@@ -33,7 +35,6 @@ packages:
   /dotenv@16.0.3:
     resolution: {integrity: sha512-7GO6HghkA5fYG9TYnNxi14/7K9f5occMlp3zXAuSxn7CKCxt9xbNWG7yF8hTCSUchlfWSe3uLmlPfigevRItzQ==}
     engines: {node: '>=12'}
-    dev: false
 
   /isomorphic-fetch@3.0.0:
     resolution: {integrity: sha512-qvUtwJ3j6qwsF3jLxkZ72qCgjMysPzDfeV240JHiGZsANBYd+EEuu35v7dfrJ9Up0Ak07D7GGSkGhCHTqg/5wA==}

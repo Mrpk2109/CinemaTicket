@@ -1,7 +1,6 @@
 import express,{ Request,Response} from "express";
 import jwt from "jsonwebtoken"
 import bcrypt from "bcryptjs"
-import User from "../model/admin.model"
 import Admin from "../model/admin.model";
 
 export const login = async(req:Request, res:Response)=>{
@@ -15,11 +14,16 @@ export const login = async(req:Request, res:Response)=>{
             res.status(400).send("All input is required");
         }
         //Validate id user exist in our database
-        const user = await User.findOne({ email: email }).exec();
+        const user = await Admin.findOne({ email }).exec();
+
+        if(!user){
+            return user not
+        }
 
         console.log(user);
 
-        if(user && (await bcrypt.compare(password,Admin.password))){
+        const isValid = await bcrypt.compare(password,user.admin_pass)
+        if(user && isValid){
             //Crate token
             const token = jwt.sign(
                 {user_id: user._id,email},
