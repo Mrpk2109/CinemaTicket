@@ -1,5 +1,5 @@
 import L from 'leaflet';
-import { LatLngBoundsExpression } from 'leaflet';
+
 interface Cinema {
   name: string;
   location: L.LatLngExpression;
@@ -8,14 +8,14 @@ interface Cinema {
 
 const cinemas: Cinema[] = [
   {
-    name: 'Cinema 1',
+    name: 'Cinema Central Festival',
     location: [51.5074, 0.1278],
-    address: 'London, UK'
+    address: 'ChiangMai, Thailand'
   },
   {
-    name: 'Cinema 2',
+    name: 'Cinema Central Airport',
     location: [40.7128, -74.006],
-    address: 'New York, USA'
+    address: 'ChiangMai, Thailand'
   },
   {
     name: 'Cinema 3',

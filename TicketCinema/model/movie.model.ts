@@ -2,10 +2,10 @@ import mongoose,{ Mongoose } from "mongoose";
 import { Schema, model, Document } from "mongoose";
 
 interface IMovie {
-    name: string;
-    duration: number;
-    code: string;
-    schedule: string[];
+    name: string; //ชื่อหนัง
+    duration: number; //เวลาในหนัง
+    code: string; //รหัสของหนัง
+    schedule: string[]; //รอบหนัง
   }
   
   const MovieSchema = new Schema<IMovie>(
