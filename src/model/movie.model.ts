@@ -18,5 +18,5 @@ interface IMovie {
     { timestamps: true }
   );
 
-const MovieModel = mongoose.model("test1",MovieSchema);
+const MovieModel = mongoose.model("movie",MovieSchema);
 export default MovieModel;
