@@ -46,6 +46,9 @@ dependencies:
   mapbox-gl:
     specifier: ^2.13.0
     version: 2.13.0
+  mongodb:
+    specifier: ^5.1.0
+    version: 5.1.0
   mongoose:
     specifier: ^7.0.3
     version: 7.0.3
