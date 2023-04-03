@@ -1,7 +1,7 @@
 import express from "express";
 const cinemaRoute = express.Router();
-import initMap from "../cinema/cinema";
+// import initMap from "../cinema/cinema";
 
-initMap
+// initMap
 
 export default cinemaRoute
