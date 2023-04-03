@@ -1,8 +1,7 @@
-import { ObjectId } from 'mongodb';
 import mongoose,{Schema} from 'mongoose';
 
 interface Cinema {
-  _id: ObjectId;
+  _id: string;
   cinema_name: string;
   cinema_promotion: string;
   cinema_location: string;
