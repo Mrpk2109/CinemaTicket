@@ -17,7 +17,7 @@ export const login = async(req:Request, res:Response)=>{
         const user = await Admin.findOne({ email }).exec();
 
         if(!user){
-            return user not
+            return res.status(400).send("User id not found")
         }
 
         console.log(user);
